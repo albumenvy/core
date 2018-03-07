@@ -1,0 +1,16 @@
+<?xml version='1.0'?>
+<config
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd"
+>
+<!-- 2018-03-07
+https://www.upwork.com/d/contracts/19666606
+«The module not support image swatch».
+-->
+	<type name='Magento\Swatches\Model\SwatchAttributesProvider'>
+		<plugin
+			name='Dfe\Mediaclip\Plugin\Swatches\Model\SwatchAttributesProvider'
+			type='Dfe\Mediaclip\Plugin\Swatches\Model\SwatchAttributesProvider'
+		/>
+	</type>
+</config>

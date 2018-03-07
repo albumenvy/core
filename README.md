@@ -1,0 +1,1 @@
+A fix for the [mediaclip.ca](https://www.mediaclip.ca/) Magento 2 module.
