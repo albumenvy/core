@@ -3,12 +3,12 @@ namespace Dfe\Mediaclip\Plugin\Swatches\Model;
 use Magento\Catalog\Model\Product;
 use Magento\ConfigurableProduct\Model\Product\Type\Configurable as C;
 use Magento\ConfigurableProduct\Model\Product\Type\Configurable\Attribute;
-use Magento\Eav\Model\ResourceModel\Entity\Attribute as Sb;
+use Magento\Swatches\Model\SwatchAttributesProvider as Sb;
 use Mediaclip\Hub\Configurable\Model\Product\Type\MediaclipConfigurable as MC;
 // 2018-03-07
 // https://www.upwork.com/d/contracts/19666606
 // «The module not support image swatch».
-class SwatchAttributesProvider {
+final class SwatchAttributesProvider {
 	/**
 	 * 2018-03-07
 	 * @see \Magento\Swatches\Model\SwatchAttributesProvider::provide()
