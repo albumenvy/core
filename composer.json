@@ -1,8 +1,8 @@
 {
-	"name": "mage2pro/mediaclip.ca"
-	,"description": "A fix for the mediaclip.ca Magento 2 module"
+	"name": "mage2pro/albumenvy.com"
+	,"description": "A custom module for albumenvy.com"
 	,"type": "magento2-module"
-	,"version": "0.0.1"
+	,"version": "0.0.2"
 	,"license": "MIT"
 	,"authors": [{
 		"name": "Dmitry Fedyuk"
@@ -10,6 +10,7 @@
 		,"homepage": "https://mage2.pro/users/dmitry_fedyuk"
 		,"role": "Developer"
 	}]
-	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\Mediaclip\\": ""}}
+	,"require": {"mage2pro/core": ">=3.6.18"}
+	,"autoload": {"files": ["registration.php"], "psr-4": {"Dfe\\AlbumEnvy\\": ""}}
 	,"keywords": ["Magento 2"]
 }

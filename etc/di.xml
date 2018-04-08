@@ -9,8 +9,8 @@ https://www.upwork.com/d/contracts/19666606
 -->
 	<type name='Magento\Swatches\Model\SwatchAttributesProvider'>
 		<plugin
-			name='Dfe\Mediaclip\Plugin\Swatches\Model\SwatchAttributesProvider'
-			type='Dfe\Mediaclip\Plugin\Swatches\Model\SwatchAttributesProvider'
+			name='Dfe\AlbumEnvy\Plugin\Swatches\Model\SwatchAttributesProvider'
+			type='Dfe\AlbumEnvy\Plugin\Swatches\Model\SwatchAttributesProvider'
 		/>
 	</type>
 </config>

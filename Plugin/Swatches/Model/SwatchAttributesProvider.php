@@ -1,5 +1,5 @@
 <?php
-namespace Dfe\Mediaclip\Plugin\Swatches\Model;
+namespace Dfe\AlbumEnvy\Plugin\Swatches\Model;
 use Magento\Catalog\Model\Product;
 use Magento\ConfigurableProduct\Model\Product\Type\Configurable as C;
 use Magento\ConfigurableProduct\Model\Product\Type\Configurable\Attribute;
