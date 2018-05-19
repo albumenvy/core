@@ -1,5 +1,5 @@
 <?php
-namespace Dfe\AlbumEnvy\Plugin\Swatches\Model;
+namespace AlbumEnvy\Core\Plugin\Swatches\Model;
 use Magento\Catalog\Model\Product;
 use Magento\ConfigurableProduct\Model\Product\Type\Configurable as C;
 use Magento\ConfigurableProduct\Model\Product\Type\Configurable\Attribute;
@@ -33,4 +33,3 @@ final class SwatchAttributesProvider {
 		return $r;
 	}
 }
-
