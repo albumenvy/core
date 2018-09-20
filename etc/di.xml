@@ -13,4 +13,5 @@ https://www.upwork.com/d/contracts/19666606
 			type='AlbumEnvy\Core\Plugin\Swatches\Model\SwatchAttributesProvider'
 		/>
 	</type>
+	<preference for="Temando\Shipping\Plugin\Sales\OrderRepositoryPlugin" type="AlbumEnvy\Core\Plugin\Sales\OrderRepositoryPlugin" />
 </config>
