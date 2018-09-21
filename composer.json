@@ -1,14 +1,14 @@
 {
 	"name": "albumenvy/core"
-	,"version": "0.0.5"
+	,"version": "0.0.6"
 	,"description": "A custom module for albumenvy.com"
 	,"type": "magento2-module"
 	,"homepage": "https://github.com/albumenvy/core"
 	,"license": "MIT"
 	,"authors": [{
-		"name": "Dmitry Fedyuk"
-		,"email": "admin@mage2.pro"
-		,"homepage": "https://mage2.pro/users/dmitry_fedyuk"
+		"name": "Dmitry Fedyuk / Scott Webster Wood"
+		,"email": "scottw@albumenvy.com.com"
+		,"homepage": "https://www.albumenvy.com"
 		,"role": "Developer"
 	}]
 	,"autoload": {"files": ["registration.php"], "psr-4": {"AlbumEnvy\\Core\\": ""}}
